@@ -20,13 +20,11 @@ Para la realización de esta relación se debe usar la anotación @OneToMany, @M
 * Clonar el repositorio
 ```
 git clone https://github.com/Capdoo/spring-jpa-onetomany.git
-
 ```
 
 * Crear la Base de Datos usando MySQL
 ```
 CREATE DATABASE compras CHARACTER SET utf8 COLLATE utf8_general_ci;
-
 ```
 
 
@@ -40,7 +38,6 @@ spring.datasource.url=jdbc:mysql://localhost:3306/compras
 spring.datasource.username=[Username]
 spring.datasource.password=[Contraseña]
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
 ```
 
 ## Anotaciones
